@@ -1,0 +1,17 @@
+body {font-family: 'Open Sans', sans-serif; margin: 0; background-repeat: no-repeat; background-size: cover; background-position: center; background-image: url('http://cakeloversunite.com/wp-content/uploads/2017/10/white-background-geo-shapes.jpg');}
+body, html {}
+/*.overall {background-color: rgba(0,0,0,0.6); color: white;}*/
+a {text-decoration: none; color: black;}
+/*.nav-section {background-color: rgba(0,0,0,0.6);}*/
+.nav-link:hover {border-bottom: solid 2px black;}
+.navTable {border-collapse: collapse; width: 100%; font-family: 'Staatliches', cursive;}
+.navTd {width: 33%; text-align: center; padding: 25px 75px; font-size: 200%;}
+.navBtn {border: solid 2px black; padding: 12px 28px; background: none; font-family: 'Staatliches', cursive; color: black;}
+.navBtn:hover {border: solid 2px grey; color: grey;}
+.parent-center {margin: auto; width: 60%;}
+.child-center {}
+.social-media {position: fixed; background-color: rgba(0,0,0,0.5); height: 100%; top: 10%; left: 10%;}
+.social-media img {width: 70px;}
+.spreadsheet {width: 100%;}
+.spreadsheet td {padding: 10px;}
+.spreadsheet th {border-bottom: solid 2px black; }

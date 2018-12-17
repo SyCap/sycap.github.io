@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scaxx Schools v20.0</title>
+	<link rel="stylesheet" href="ScaxxSchoolsv20.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Staatliches" rel="stylesheet">
+	<script type="text/javascript" src="ScaxxSchoolsv20.js"></script>
+</head>
+<body onload="dateoftoday();">
+
+	<div class="overall">
+		<!-- Navigation bar -->
+		<div class="nav-section">
+			<table class="navTable">
+				<tr>
+					<td class="navTd" style="text-align: left;"><a class="nav-link" href="#"><!-- Menu -->Menu</a></td>
+					<td class="navTd" style="text-align: center;"><a class="nav-link" href="#"><!-- Logo -->Scaxx Schools<sup style="color: grey;">v20</sup></a></td>
+					<td class="navTd" style="text-align: right;"><a class="nav-link" href="#"><!-- Profile -->My profile</a></td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Social media section -->
+		<!--<div class="social-media">
+			<table>
+				<tr>
+					<td style="padding: 10px 20px;"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/2000px-Instagram_simple_icon.svg.png" alt="Instagram"></a></td>
+				</tr>
+				<tr>
+					<td style="padding: 10px 20px;"><a href="#"><img src="https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube_icon_light.svg" alt="Youtube"></a></td>
+				</tr>
+			</table>
+		</div>-->
+		<div class="parent-center">
+			<div class="child-center">
+				<p style="text-align: center;">
+					<span style="font-size: 200%;" id="dateDis" onclick="dateoftoday();">xx-xx xx:xx</span><br>
+					<span style="font-size: 60%; color: grey;">Click on the date to reload it</span>
+				</p>
+				<script type="text/javascript">
+					
+				</script>
+			</div>
+		</div>
+
+		<!-- Schedule -->
+		<div class="parent-center">
+			<div class="child-center">
+				<table class="spreadsheet">
+					<tr>
+						<th>Month</th>
+						<th>Week</th>
+						<th>Work</th>
+					</tr>
+					<tr>
+						<td rowspan="4" style="width: 35%;"><h1>January<sup style="color: grey;">'19</sup></h1></td>
+						<td>Week 2<br><span style="color: grey; font-size: 60%;">7 jan - 11 jan</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>	
+					<tr>
+						<td>Week 3<br><span style="color: grey; font-size: 60%;">14 jan - 18 jan</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>Week 4<br><span style="color: grey; font-size: 60%;">21 jan - 26 jan</span></td>
+						<td>
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>Week 5<br><span style="color: grey; font-size: 60%;">28 jan - 1 feb</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="4" style="width: 35%;"><h1>February<sup style="color: grey;">'19</sup></h1></td>
+						<td>Week 6<br><span style="color: grey; font-size: 60%;">4 feb - 8 feb</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>	
+					<tr>
+						<td>Week 7<br><span style="color: grey; font-size: 60%;">11 feb - 15 feb</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>Week 8<br><span style="color: grey; font-size: 60%;">14 feb - 18 feb</span></td>
+						<td>
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>Week 9<br><span style="color: grey; font-size: 60%;">21 feb - 25 feb</span></td>
+						<td>	
+							<ul>
+								<li>
+									<span class="type">SCHEDULE</span>
+									<span id="subject">Xy</span> - <span id="teacher">xyzxyz</span> in <span id="location">X0</span>
+								</li>
+								<li>
+									<span class="type">TEST</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	
+								</li>
+								<li>
+									<span class="type">EXAM</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span> in <span id="location">X0</span> on <span id="date">00-00 on 00:00</span>	with a weight of <span id="weight">0x</span>
+								</li>
+								<li>
+									<span class="type">HOMEWORK</span>
+									<span id="subject">Xy</span> - <span id="theme">xyzxyz</span>	
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
